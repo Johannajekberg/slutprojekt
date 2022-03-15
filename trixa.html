@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trixa</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet"  href="hundarna.css">
+    <link rel="stylesheet" href="css/splide-default.min.css">
+    <script src="js/splide.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="splide">
+                <div class="splide__track">
+                      <ul class="splide__list">
+                          <li class="splide__slide"> <img src="images/trixaface.jpg" alt=""> </li>
+                          <li class="splide__slide"><img src="images/puppytrixa.jpg" alt=""></li>
+                          <li class="splide__slide"><img src="images/trixaeyes.jpg" alt=""></li>
+                      </ul>
+
+                </div>
+              </div>
+            <div class="headerlinks">
+                <a class="headerlinks" href="index.html">Hem</a>
+                <a class="headerlinks" href="kontakt.html">Kontakt</a>
+                <a class="headerlinks" href="leia.html">Leia</a>
+                <a class="headerlinks" href="valpar.html">Valpar</a>
+                <a class="headerlinks" href="https://www.instagram.com/trixasliv/">Instagram</a>
+            </div>    
+        </header>
+        <main>
+            <div class="articles">
+                <img class="leiasimgpage" src="images/trixasspindel.jpg" alt="Trixa på en äng">
+                <h2>Hälsa</h2>
+                <h3>HD: Grad B/C      ED: UA</h3>
+                <a class="hunddata" href="https://hundar.skk.se/hunddata/Hund.aspx?hundid=3287817">Trixa på SKK hunddata</a>
+            </div>
+            <div class="articles">
+                <h2>Info</h2>
+                <h3>Red Cherry's Rainbow <br> Trixa</h3>
+                <h3>Registreringsnummer: SE27333/2018</h3>
+                <p>Far: Some Kind Of Magic's Kanudigit <br>Mor: Red Cherry's Tinkerbell</p>
+                <div class="ownerbreeder">
+                    <p>Uppfödare: Jenny Andresson</p>
+                    <p>Ägare: Johanna Jakobsson Ekberg</p>
+                </div>
+                <img class="leiasimgpage" src="images/trixa-2.jpg" alt="Leia i skogen">
+            </div>
+        </main>
+        <footer>
+            <div class="Footermenu">
+                <h2>Vill ni se mer av oss?</h2>
+                <p>Kolla in våran instagram</p>
+                <a href="https://www.instagram.com/trixasliv/"><img class="logo" src="images/instagramlogo.png" alt=""></a>
+        </div>
+        </footer>
+        <script>
+            var spl = new Splide( '.splide', {
+                        autoplay    : true,
+                        rewind      : true,
+                        speed       : 9000,
+                        interval    : 5000,
+                        type        : 'fade',
+                        arrows      : false,
+                        pagination  : false,
+                        pauseOnHover: false,
+                        pauseOnFocus: false,
+                        } );
+                    
+        
+                    spl.mount();
+        
+                </script>
+    </div>
+</body>
+</html>

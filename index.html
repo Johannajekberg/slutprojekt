@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Välkommen</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet" href="css/splide-default.min.css">
+    <script src="js/splide.js"></script>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="splide">
+                <div class="splide__track">
+                      <ul class="splide__list">
+                          <li class="splide__slide"> <img src="images/header.jpg" alt=""> </li>
+                          <li class="splide__slide"><img src="images/tripple.jpg" alt=""></li>
+                          <li class="splide__slide"><img src="images/eys.jpg" alt=""></li>
+                      </ul>
+
+                </div>
+              </div>
+            <div class="headerlinks">
+                <a class="headerlinks" href="kontakt.html">Kontakt</a>
+                <a class="headerlinks" href="trixa.html">Trixa</a>
+                <a class="headerlinks" href="leia.html">Leia</a>
+                <a class="headerlinks" href="valpar.html">Valpar</a>
+                <a class="headerlinks" href="https://www.instagram.com/trixasliv/">Instagram</a>
+            </div>    
+        </header>
+        <main>
+            <div class="articles">
+                <img src="images/IMG_0211.jpg" alt="Trixa bland orangea ormbunkar i skogen">
+                <a class="dogpage" href="Trixa.html">Red Cherry's Rainbow <br>Trixa</a>
+                
+                <h3>SE27333/2018</h3>
+                <p>Trixa är min första egna hund som jag köpte 2018 av Jenny Andersson. Hon är en självständig dam med många åsikter som helst gör lite som hon själv vill. Trixa kommer inte gå i avel. </p>
+            </div>
+            <div class="articles">
+                <img src="images/aboutme.jpg" alt="Johanna kramar Trixa">
+                <h3>Om mig</h3>
+                <p>Mitt namn är Johanna och min vision är att föda upp australian shepherds i liten skala med mentalitet, exteriör och arbetsförmåga i fokus. <br><br> Jag är uppvuxen med hund men hundintresset väcktes till liv på riktigt 2018 när jag köpte min första egna hund Trixa
+                sedan dess har det blivit många kurser och mycket hundträning där vi testat på en hel del olika grenar. </p>
+            </div>
+            <div class="articles">
+                <img src="images/IMG_9795.jpg" alt="Leia">
+                <a class="dogpage" href="leia.html">Whambam Million Dollar Baby <br> Leia</a>
+                <h3>SE43372/2020</h3>
+                <p>Leia är en tjej som tar livet med en klackspark. Hon ser det positiva i allt och är alltid redo på vad som än kommer. Hon tackar aldrig nej och vill alltid vara med! Kull planeras på henne i framtiden. Malin Rosén har avelsrätten på en kull på Leia.</p>
+            </div>
+        </main>
+        <footer>
+            <div class="Footermenu">
+                <h2>Vill ni se mer av oss?</h2>
+                <p>Kolla in våran instagram</p>
+                <a href="https://www.instagram.com/trixasliv/"><img class="logo" src="images/instagramlogo.png" alt=""></a>
+        </div>
+        </footer>
+        <script>
+    var spl = new Splide( '.splide', {
+                autoplay    : true,
+                rewind      : true,
+                speed       : 9000,
+                interval    : 5000,
+                type        : 'fade',
+                arrows      : false,
+                pagination  : false,
+                pauseOnHover: false,
+                pauseOnFocus: false,
+                } );
+            
+
+            spl.mount();
+
+        </script>
+    </div>
+</body>
+</html>
