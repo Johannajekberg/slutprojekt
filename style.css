@@ -3,16 +3,11 @@ body {
     height: 100vh;
     
 }
-
 .wrapper {
     max-width: 95%;
     display: grid;
-    grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    grid-template-rows: repeat(12, 1fr) ;
-    
+    grid-template-columns: repeat(11, 1fr);  
 }
-
 header {
     grid-column: 1/12;
     grid-row: 1/4;
@@ -20,13 +15,11 @@ header {
     flex-direction: column;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
-    
     min-width: 1000px;
 }
 .header {
 width: 100%;
 max-width: 1500px;
-
 }
 .headerlinks {
     color: black;
@@ -47,7 +40,10 @@ a.headerlinks:hover {
     border-radius: 5px;
     font-size: 125%;
 }
-
+.headerlinks.selected {
+    background: rosybrown;
+    border-radius: 5px;
+}
 main {
     grid-column: 1/12;
     grid-row: 4/10;
@@ -65,7 +61,6 @@ main {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 40%);
     transition: all 0.8s;
     font-family: 'Courier New', Courier, monospace;
-    
 }
 img {
     width: 100%;
@@ -102,7 +97,6 @@ footer {
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
 }
-
 .logo {
     width: 35px;
     transition: all 0.4s;
