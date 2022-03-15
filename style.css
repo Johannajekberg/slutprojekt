@@ -86,7 +86,7 @@ p {
 footer {
     grid-column: 1/12;
     grid-row: 10/12;
-    background-color: rgba(156, 152, 143, 0.301);
+    background-color: rgba(175, 154, 154, 0.575);
     border: 30px solid rgb(255, 255, 255);
     padding-bottom: 2%;
     min-width: 1000px;
